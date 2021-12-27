@@ -1,0 +1,307 @@
+\documentclass[10pt]{article}
+
+\pagestyle{empty}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{pstricks,pst-eucl}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{pslatex}
+\usepackage{lscape}
+\usepackage{eurosym}
+\usepackage{skak}
+\usepackage{chessboard}
+
+
+\geometry{      verbose,
+                a4paper,        % a4
+                tmargin=1cm,    % Marge haute
+                bmargin=1cm,    % Marge basse
+                lmargin=1cm,    % Marge gauche
+                rmargin=1cm,    % Marge droite
+                headheight=0cm, % Entete
+                headsep=0cm,    % Séparateur entete
+                footskip=0cm    % Pied de page
+         }
+
+\setlength\parindent{0pt}% Halte à l'indentation
+
+\renewcommand{\thesubsection}{\arabic{subsection} )}
+\renewcommand{\thesubsubsection}{\alph{subsubsection} )}
+\renewcommand{\euro}{\officialeuro \ }
+
+\renewcommand{\frac}{\dfrac}
+\newcommand{\V}{\overrightarrow}
+\newcommand{\Norme}[1]{\parallel \V{#1} \parallel}
+\newcommand{\R}{\sqrt}
+
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\renewcommand{\[}{\left[}
+\renewcommand{\]}{\right]}
+\newcommand{\x}{\times}
+
+
+\cbDefineLanguage{francais}
+\cbDefineTranslation{francais}{K}{R}
+\cbDefineTranslation{francais}{Q}{D}
+\cbDefineTranslation{francais}{R}{T}
+\cbDefineTranslation{francais}{B}{F}
+\cbDefineTranslation{francais}{N}{C}
+\cbDefineTranslation{francais}{P}{P}
+\cbDefineTranslation{francais}{k}{R}
+\cbDefineTranslation{francais}{q}{D}
+\cbDefineTranslation{francais}{r}{t}
+\cbDefineTranslation{francais}{b}{f}
+\cbDefineTranslation{francais}{n}{c}
+\cbDefineTranslation{francais}{p}{p}
+
+\begin{document}                  % Sur la ligne 50 
+
+\setchessboard{smallboard, showmover=false}
+
+\begin{landscape}
+
+
+\begin{multicols}{2}
+
+\centerline{\Huge La partie espagnole - Ruy Lopez}
+
+\vspace{1cm}
+
+La partie espagnole est une ouverture du jeu d'échecs. Elle est également appelée Ruy Lopez en hommage à Ruy Lopez de Segura, moine espagnol du XVIe siècle, considéré comme le joueur le plus brillant de son temps, qui a insisté sur son intérêt dans son ouvrage Libro del Ajedrez (1561). Cependant, elle n'est devenue populaire que vers le milieu du XIXe siècle, après que le théoricien russe Carl Jaenisch en a publié l'analyse. Tout en étant l'une des ouvertures les plus anciennes du jeu (elle figurait déjà dans le manuscrit de Göttingen, qui a été écrit vers 1490, à une époque où l'imprimerie en était encore à ses débuts), la partie espagnole est maintenant l'une des plus populaires.
+
+\newgame
+
+
+\begin{multicols}{2}
+
+\mainline{1.e4 e5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\mainline{2. Nf3 Nc6}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\columnbreak
+
+\begin{multicols}{2}
+
+\mainline{3.Bb5 Bc5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+
+\columnbreak
+
+
+\mainline{4. Ba4 Nf6}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\textit{Partie espagnole fermée}
+
+\mainline{5.O-O Be7}
+
+
+\bigskip
+
+\textit{Variante Moller}
+
+\variation{5...Bc5}
+
+
+\bigskip
+
+\textit{Variante partie espagnole ouverte}
+
+\variation{5...Nxe4} 
+
+
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+\end{multicols}
+
+
+\newgame
+
+\newpage
+
+
+\begin{multicols}{2}
+
+\centerline{\Huge La partie italienne}
+
+\vspace{1cm}
+
+La partie italienne est une ouverture du jeu d'échecs. Les Noirs y cherchent juste à maintenir l'équilibre. La partie italienne compte parmi les ouvertures les plus anciennes; elle fut déjà analysée par Pedro Damiano dans son livre publié à Rome en 1512.
+
+Plusieurs choix s'offrent aux Blancs dans la partie italienne, aussi appelée, en raison du type de parties qu'elle entraîne, Giuoco Piano (jeu tranquille en Italien):
+
+\newgame
+
+
+\begin{multicols}{2}
+
+\mainline{1.e4 e5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\mainline{2. Nf3 Nc6}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+
+\columnbreak
+
+
+\begin{multicols}{2}
+
+\mainline{3.Bc4 Bc5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+
+
+
+\begin{multicols}{2}
+
+\mainline{4.O-O}
+
+\bigskip
+
+\variation{4.Nc3}
+
+\bigskip
+
+
+\centerline{\textit{Giuoco Pianissimo}}
+\variation{4. d3}
+
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\end{multicols}
+
+
+\newgame
+
+
+\newpage
+
+\begin{multicols}{2}
+
+\centerline{\Huge Défense des deux cavaliers}
+
+\vspace{1cm}
+
+La défense des deux cavaliers est une ouverture du jeu d'échecs. Contrairement à la partie italienne, où les Noirs cherchent juste à maintenir l'équilibre, les Noirs contre-attaquent ici dès le troisième coup. La défense des deux cavaliers fut étudiée par des maîtres de l'école italienne tels que Giulio Cesare Polerio (1548-1612), Giani Battista Lolli (1698-1769) et Domenico Lorenzo Ponziani (1719-1796), mais le coup typique de l'école berlinoise 3...Cf6 fut surtout analysé en profondeur au XIXe siècle par Paul Rudolf von Bilguer (1815-1840).
+
+
+\begin{multicols}{2}
+
+\mainline{1. e4 e5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\mainline{2. Nf3 Nc6}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+
+\columnbreak
+
+
+\begin{multicols}{2}
+
+\mainline{3.Bc4 Nf6}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+
+\begin{multicols}{2}
+
+\textit{Contre attaque Traxler}
+
+\mainline{4.Ng5 Bc5}
+
+\columnbreak
+
+\chessboard
+
+\end{multicols}
+
+\end{multicols}
+
+\end{landscape}
+
+
+
+\end{document}
+
