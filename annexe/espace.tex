@@ -1,0 +1,101 @@
+
+%%%%%%%%%%%%%%%%%%%%%
+\chapter{L'espace}
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Espace contrôlé}
+%%%%%%%%%%%%%%%%%%%%%
+
+%C'est les cases accessible par les pièces (pas par les pions)
+
+Lors de 
+
+\begin{minipage}{0.4\textwidth}
+
+\begin{center}
+\newgame
+\mainline{1. e4 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=a6,
+	markfields=e2,markfields=d3,markfields=c4,markfields=b5,
+	markfields=f3,markfields=g4,markfields=h5,]
+\end{center}
+L'ouverture du pion roi offre 8 cases.
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+\newgame
+\mainline{1. d4 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=h6,
+	markfields=d2,markfields=e3,markfields=f4,markfields=g5,
+	markfields=d3,]
+\end{center}
+L'ouverture du pion roi offre 6 cases.
+\end{minipage}
+
+\begin{minipage}{0.4\textwidth}
+\begin{center}
+\newgame
+\mainline{1. c4 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=d4,
+	markstyle=color,markfields=e5,]
+\end{center}
+Le cavalier f3 contrôle les deux cases centrales d4 et e5.
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{center}
+\newgame
+\mainline{1. Nf3 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=d4,
+	markstyle=color,markfields=e5,]
+\end{center}
+Le cavalier f3 contrôle les deux cases centrales d4 et e5.
+\end{minipage}
+
+\newgame
+
+\mainline{1. e4 e5 2. Nf3 Nc6}
+
+\begin{center}
+\chessboard
+\end{center}
+
+%\newchessgame
+\newgame
+
+\def\empharea{ h8-f4 }
+\chessboard[emphstyle=\color{red},
+empharea=\empharea]
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%\section{Le temps}
+%%%%%%%%%%%%%%%%%%%%%
+
+\fenboard{r5k1/1b1p1ppp/p7/1p1Q4/2p1r3/PP4Pq/BBP2b1P/R4R1K w − − 0 20}
+\mbox{}
+\bigskip
+\showboard
+\mainline{20.Qxb7 Rae8 21.Qd5}
+
+
+
+
+
+%\newgame
+%\mainline{1. Nf3 }
+%\def\empharea{ f3-f3 }
+%\chessboard[color=red,
+%	markstyle=color,markfields=d4,
+%	markstyle=color,markfields=e5,
+%	emphstyle=\color{green},
+%	empharea=\empharea]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
