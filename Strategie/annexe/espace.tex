@@ -1,0 +1,146 @@
+
+%%%%%%%%%%%%%%%%%%%%%
+\chapter{L'espace}
+%%%%%%%%%%%%%%%%%%%%%
+
+%L'avance des pions offre de l'espace.
+
+\section{Exemple}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newgame
+\begin{minipage}{0.45\textwidth}
+
+%Dans l'ouverture du cavalier du roi, \mainline{1. e4 e5 2. Nf3 } les noir peuvent défendre par \mainline{2... d6}.
+%Les blancs peuvent alors poursuivre la prise du centre, \mainline{3.d4 }
+%et si les noirs prennent \mainline{3... exd4 },
+%Les blancs prennent un avantage par \mainline{4. Qxd4 Nc6}
+\mainline{1. e4 e5 2. Nf3 d6 3.d4 }
+
+\hspace{1.7cm}\mainline{3... exd4 4. Qxd4 Nc6}
+
+\hspace{0.7cm}Les blancs ont plus d'espace : ils occupent quatre traverses, les noirs trois seulement. Leur fous dispose de nombreuses cases pour se développer, le fou noir des noirs est bloqué par un pion.
+
+\hspace{0.7cm}Le coup exd4 a été l'erreur des noirs qui a permis au blanc de prendre un avantage d'espace.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Premier coup}
+%%%%%%%%%%%%%%%%%%%%%
+
+%C'est les cases accessible par les pièces (pas par les pions)
+
+
+
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm}Avant de jouer le premier coup, les blancs contrôlent les trois premières traverses,
+les noirs contrôlent les trois dernières.
+%En particulier, les cases f2 et f7 ne sont contrôlées que par les roi.
+%Ce sont les cases les plus faibles de chacun des camps.
+
+\vspace{0.5cm}
+\hspace{0.7cm}Les traverses 4 et 5 ne sont contrôlé par aucun des camps et le premier coup joué
+part à l'assaut de ces cases : {\bf Les coups de pions permettent de gagner de l'espace}.
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\def\empharea{ a6-h8 }
+\chessboard[emphstyle=\color{red},
+	empharea = a1-h3,
+	emphstyle=\color{blue},
+	empharea=\empharea ]
+\end{minipage}
+
+
+
+\begin{minipage}{0.45\textwidth}
+%\begin{center}
+\newgame
+\mainline{1. e4 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=a6,
+	markfields=d5,markfields=c4,markfields=b5,
+	markfields=f5,markfields=g4,markfields=h5,]
+%\end{center}
+
+L'ouverture du pion roi permet de
+contrôler 7 nouvelles cases.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+%\begin{center}
+\newgame
+\mainline{1. d4 }
+
+\def\empharea{ d4-d4 }
+\chessboard[color=red,
+	markstyle=color,markfields=h6,
+	markfields=c5,markfields=f4,markfields=g5,
+	markfields=e5,emphstyle=\color{red},
+	empharea=\empharea ]
+%\end{center}
+
+L'ouverture du pion dame permet de
+contrôler 6 nouvelles cases.
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{0.5cm}
+
+\begin{minipage}{0.45\textwidth}
+\newgame
+\mainline{1. Nf3 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=d4,
+	markstyle=color,markfields=e5,]
+
+Le cavalier f3 contrôle les deux cases centrales d4 et e5.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\mainline{1. c4 }
+
+\chessboard[color=red,
+	markstyle=color,markfields=d5,
+	markfields=b5,markfields=a4,]
+
+Le pion c4 contrôle la case centrale d5
+et la case b5. La dame contrôle la case a4.
+\end{minipage}
+
+%\newchessgame
+%\newgame
+%\def\empharea{ h8-f4 }
+%\chessboard[emphstyle=\color{red},
+%empharea=\empharea]
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%\section{Le temps}
+%%%%%%%%%%%%%%%%%%%%%
+
+%\fenboard{r5k1/1b1p1ppp/p7/1p1Q4/2p1r3/PP4Pq/BBP2b1P/R4R1K w − − 0 20}
+%\mbox{}
+%\bigskip
+%\showboard
+%\mainline{20.Qxb7 Rae8 21.Qd5}
+
+%\newgame
+%\mainline{1. Nf3 }
+%\def\empharea{ f3-f3 }
+%\chessboard[color=red,
+%	markstyle=color,markfields=d4,
+%	markstyle=color,markfields=e5,
+%	emphstyle=\color{green},
+%	empharea=\empharea]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

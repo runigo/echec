@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\section{La partie espagnole}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\chessboard[arrow=latex,
+pgfstyle=straightmove,
+%markmove=a1-a8,
+%arrow=to,linewidth=0.2ex,
+color=red,
+%pgfstyle=knightmove,
+pgfstyle={[linewidth=2pt,arrow=to,style=knight]curvemove},
+pgfstyle=curvemove,
+%markmoves={c3-d1},  % Comenté pour effacer la flèche
+shortenstart=-1ex,
+%markmoves=h1-g3
+]
+
+\subsection{Ligne principale}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newgame
+\begin{minipage}{0.5\textwidth}
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bb5 a6}
+
+\chessboard
+\storegame{espagnolePrincipale}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\mainline{4. Ba4 Nf6} % 5. 
+
+\chessboard
+\end{minipage}
+
+\subsection{Ligne naturelle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newgame
+\begin{minipage}{0.5\textwidth}
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6}
+
+\chessboard
+\storegame{espagnoleNaturelle}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\mainline{4.O-O Ne4} % 5. 
+
+\chessboard
+\end{minipage}
+
+%
+
+\newgame
+
+\begin{minipage}{0.5\textwidth}
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6}
+
+\chessboard
+\storegame{espagnoleNaturelle}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\mainline{4. Ba4 Nf6} % 5. 
+
+\chessboard
+\end{minipage}
+
+%
+\newgame
+\restoregame{espagnoleNaturelle}
+%\mainline{4. Ba4 Nf6} % 5. 
+\chessboard
+
+
+\subsection{Variante d'échange}
+
+\newgame
+
+\begin{minipage}{0.5\textwidth}
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bb5 a6}
+
+\chessboard
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\mainline{4. Bxc6 dxc6 5. Nxe5 Qd4} % 5. 
+
+\chessboard
+\end{minipage}
+
+
+
+
+\subsection{Test}
+
+\newgame
+
+
+
+\mainline{1. e4}
+
+\showboard
+
+\lastmove{} Is the most common opening move
+
+\mainline{1...e5 2.Nf3 Nc6 3.d4}
+
+\showboard
+
+\mainline{3...e5xd4 4.Bb5 a6 5.O-O}
+
+\showboard
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
