@@ -1,0 +1,235 @@
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%
+%\chapter{Analyse}
+%%%%%%%%%%%%%%%%%%%%%
+\section{Analyse des exercices}
+
+\subsection{Exercice 25}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs ont des pions doublées donnant deux colonnes semi-ouvertes. Les blancs ont une colonnes semi-ouvertes.
+
+\hspace{0.7cm} Le pion a5 des noirs est faible. Le fou des noirs est un mauvais fou (les pions des noirs sont sur des cases noires) et il est inactif. Le cavalier des blanc dispose de la case e4 et rêve de la case e6
+
+\vspace{0.15cm}
+\hspace{0.7cm} Un bon coup ici est d'échanger du matériel contre de l'espace.
+
+\vspace{0.15cm}
+\hspace{0.7cm}Ou se trouve les cases faibles des noirs ? Comment y placer des pièces ?
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\restoregame{strategie25}
+\chessboard[
+inverse,markstyle=leftborder,
+]
+\end{minipage}
+
+\subsection{Exercices 28} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Exercice a} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{0.45\textwidth}
+\newgame
+\restoregame{strategie28a}
+\chessboard[
+inverse,markstyle=leftborder,
+arrow=latex,
+pgfstyle=straightmove,
+shortenstart=0.1em,
+%color=blue,
+opacity=0.3,
+color=green,
+linewidth=3pt,
+markmoves={g5-f6},
+markmoves={d8-f6},
+markmoves={f3-f6},
+markmoves={g7-f6},
+]
+
+\hspace{0.7cm} Les blancs menacent de prendre deux fois en f6 pour détruire la structure des pions de l'aile roi.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\vspace{0.15cm}
+
+\hspace{0.7cm} Après \mainline{1... h6 2.Bxf6 Qxf6 3.Qxf6 gxf6}
+
+\chessboard[
+inverse,markstyle=leftborder,
+pgfstyle=color,
+opacity=0.15,
+color=red,
+markfield=f7,
+markfield=f6,
+]
+
+\hspace{0.35cm} Les pions doublés isolés des noirs donnent une position difficile à jouer.
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\end{minipage}
+
+\subsubsection{Exercice b} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\restoregame{strategie28b}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs ont une structure de pions endomagée. En contre partie ils ont la paire de fous.
+
+\chessboard[
+inverse,markstyle=leftborder,
+]
+
+\hspace{0.7cm} Si ils endommagent la structure des pions de l'aile dame des blancs par \mainline{1... Bxc3 2.bxc3}.
+\vspace{0.15cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[
+inverse,markstyle=leftborder,
+pgfstyle=color,
+opacity=0.15,
+color=red,
+markfield=f7,
+markfield=f6,
+color=green,
+markfield=c2,
+markfield=c3,
+]
+
+\hspace{0.7cm} Les pions doublés des blancs ne sont pas faibles, ils pourront avancer et attaquer le pion central des noirs.
+\vspace{0.15cm}
+
+\hspace{0.7cm} Les pions doublés des noirs sont isolé et ne peuvent pas facilement s'échanger avec des pions blancs.
+\vspace{0.15cm}
+
+\end{minipage}
+
+\subsubsection{Exercice c} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{0.45\textwidth}
+
+\hspace{0.7cm} Les noirs disposent de la colonne semi-ouverte g, les blancs dispose de la colonne semi-ouverte b. La colonne e est ouverte.
+
+\hspace{0.7cm} {\bf Des pions doublés offrent des colonnes semi-ouvertes} (de l'espace pour les tours).
+
+\vspace{0.15cm}
+\hspace{0.7cm} Les pions doublés vont être des cibles, (s'organiser pour les attaquer est un plan).
+
+\vspace{0.15cm}
+\hspace{0.7cm} Les blancs ont un bon coup stratégique pour attaquer le pion f6.
+
+\vspace{0.15cm}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\restoregame{strategie28c}
+\chessboard[
+pgfstyle=color,
+color=green,
+opacity=0.25,
+markregion={g3-g8},
+markregion={b1-b6},
+color=orange,
+opacity=0.25,
+markregion={e1-e8},
+opacity=0.25,
+color=red,
+markfield=f6,
+]
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\chessboard[pgfstyle=color,
+color=green,opacity=0.45,
+markfield=d3,markfield=d4,
+%
+color=red,opacity=0.4,
+markfield=e6,markfield=d5,
+%
+color=orange,opacity=0.3,
+markfield=g4,markfield=h3,markfield=f5,
+%
+color=green!50!blue!50,opacity=0.4,
+markfield=a6,markfield=b5,markfield=c4,
+markfield=h7,markfield=g6,markfield=e4,
+markfield=f1,markfield=e2,markfield=f5
+%,
+]
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+
+\hspace{0.7cm} Les blancs ont un bon fou (fou de case blanche et pion central sur case noire), les noirs ont un mauvais fou(fou de case blanche et pion central sur case blanche).
+
+\vspace{0.15cm}
+\hspace{0.7cm} Le fou des blancs a plus d'espace que le fou des noirs.
+\vspace{0.15cm}
+
+\vspace{0.15cm}
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs ont des pions doublés sur la colonne f. Les blancs ont des pions doublés sur la colonne c.
+% sont une faiblesse pour les noirs, 
+
+\vspace{0.15cm}
+\hspace{0.7cm} Les pions doublés des noirs sont isolés (il n'y a plus de pions noirs sur les colonnes adjacentes). ils seront difficiles à avancer.
+
+\vspace{0.15cm}
+\hspace{0.7cm} Les pions doublés des blancs seront plus facile à pousser et à échanger.
+
+\vspace{0.15cm}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[pgfstyle=color,
+color=red,opacity=0.3,
+markfield=f7,markfield=f6,
+%
+color=orange,opacity=0.3,
+markfield=c2,markfield=c3,
+]
+\end{minipage}
+
+\subsection{Exercice 33} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\restoregame{strategie33}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs souhaite placer leur cavalier sur f5 pour attaquer le pion d4
+\vspace{0.5cm}
+
+\hspace{0.7cm} Si les blancs jouent le petit roque, les noir viennent attaquer le pion d4 qui est difficile à défendre sans risquer de perdre la paire de fous. 
+% \mainline{1. O-O Nf5 2. Be3}
+\vspace{0.5cm}
+
+\hspace{0.7cm} Ici, les blancs ont un bon coup pour contrer le plan des noirs.
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[pgfstyle=color,
+opacity=0.3,
+color=green,
+markfield=g8,
+markfield=h6,
+color=red,
+markfield=f5,
+]
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{itemize}[leftmargin=1cm, label=\ding{32}, itemsep=1pt]
+%\item {\bf } : \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

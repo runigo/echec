@@ -17,6 +17,25 @@ shortenstart=-1ex,
 %markmoves=h1-g3
 ]
 
+
+%  Montrer le dernier coup
+
+\storechessboardstyle{lastmove}{%
+ pgfstyle=color,
+ opacity=0.3,
+ color=red,
+ lastmoveid, %we want the last move
+ markfield=\xskakget{movefrom},
+ markfield=\xskakget{moveto}}
+\newchessgame
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bb5 a6}
+
+\chessboard[style=lastmove]
+
+\mainline{4. Ba4}
+
+\chessboard[style=lastmove]
+
 \subsection{Ligne principale}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newgame

@@ -1,0 +1,134 @@
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%
+%\chapter{Analyse}
+%%%%%%%%%%%%%%%%%%%%%
+\section{Analyse des position}
+
+\subsection{Problème 1}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\restoregame{probleme01}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Le matériel est égale, le pion passé des blancs est plus avancé et il on le trait. Leur position est meilleure.
+
+\hspace{0.7cm} Après \mainline{1. c6 a4}, les noirs ne peuvent plus empêcher la poussée c7. 
+
+\chessboard[pgfstyle=color,
+opacity=0.3,
+color=green,
+markfield=c5,markfield=c6,
+color=red,
+markfield=a5,markfield=a4,
+arrow=latex,
+pgfstyle=straightmove,
+shortenstart=0.1em,
+linewidth=3pt,
+color=blue,
+markmoves={c6-c7},
+]
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\restoregame{probleme01}
+\hspace{0.7cm} Les noirs doivent empêcher la promotion en jouant \mainline{1. c6 Rd8}
+
+\hspace{0.7cm} 
+\chessboard[pgfstyle=color,
+opacity=0.3,
+color=green,
+markfield=c5,markfield=c6,
+color=red,
+markfield=d4,markfield=d8,
+arrow=latex,
+pgfstyle=straightmove,
+shortenstart=0.1em,
+linewidth=3pt,
+color=blue,
+markmoves={c6-c7},
+]
+ 
+\end{minipage}
+
+\subsection{Exercices 28} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Exercice a} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{0.45\textwidth}
+\newgame
+\restoregame{probleme01}
+\chessboard[
+inverse,markstyle=leftborder,
+%color=blue,
+opacity=0.3,
+color=green,
+markmoves={d8-f6},
+markmoves={f3-f6},
+markmoves={g7-f6},
+]
+
+\hspace{0.7cm} Les blancs menacent de prendre deux fois en f6 pour détruire la structure des pions de l'aile roi.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\vspace{0.15cm}
+
+\hspace{0.7cm} Après %\mainline{1... h6 2.Bxf6 Qxf6 3.Qxf6 gxf6}
+
+\chessboard[
+inverse,markstyle=leftborder,
+pgfstyle=color,
+opacity=0.15,
+color=red,
+markfield=f7,
+markfield=f6,
+markregion={g3-g8},
+arrow=latex,
+pgfstyle=straightmove,
+shortenstart=0.1em,
+linewidth=3pt,
+markmoves={g5-f6},
+]
+
+\hspace{0.35cm} XXXXXXXXXXXXXXXXXXXXXXX.
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\end{minipage}
+
+\subsection{Exercice 33} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\restoregame{strategie33}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs souhaite placer leur cavalier sur f5 pour attaquer le pion d4
+\vspace{0.5cm}
+
+\hspace{0.7cm} Si les blancs jouent le petit roque, les noir viennent attaquer le pion d4 qui est difficile à défendre sans risquer de perdre la paire de fous. 
+% \mainline{1. O-O Nf5 2. Be3}
+\vspace{0.5cm}
+
+\hspace{0.7cm} Ici, les blancs ont un bon coup pour contrer le plan des noirs.
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[pgfstyle=color,
+opacity=0.3,
+color=green,
+markfield=g8,
+markfield=h6,
+color=red,
+markfield=f5,
+]
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{itemize}[leftmargin=1cm, label=\ding{32}, itemsep=1pt]
+%\item {\bf } : \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

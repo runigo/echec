@@ -1,14 +1,17 @@
 
-%%%%%%%%%%%%%%%%%%%%%
-\section{ChessTrainer}
-%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
-\subsection{25}
+\section{Énoncé des exercices}
+
+Dans les problèmes suivant, l'analyse de la position permet de trouver un bon coup stratégique.
+
+\subsection{Exercice 25}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newgame
 \fenboard{r4rk1/2p3b1/3p3p/p1pPp1p1/2P5/5PN1/PP4PP/1R3RK1 b − − 0 1}
 \storegame{strategie25}
 \begin{minipage}{0.45\textwidth}
-\hspace{0.7cm}
+\hspace{0.7cm}Il y a un bon coup stratégique pour les noirs.
 \vspace{0.5cm}
 
 \end{minipage}
@@ -20,6 +23,100 @@ inverse,markstyle=leftborder,
 ]%\showboard
 \end{minipage}
 
+\subsection{Exercices 28} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Exercice a} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\fenboard{rnbqk2r/pp3ppp/2p2n2/3p2B1/1b1P4/2NB1Q2/PPP2PPP/R3K1NR b − − 0 1}
+\storegame{strategie28a}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Ici, il y a plusieurs bon coup pour les noirs.
+\vspace{0.5cm}
+
+\hspace{0.7cm} Que joueriez-vous ?
+\vspace{0.5cm}
+
+\hspace{0.7cm} Quelle est la menace stratégique des blancs ? % Comment l'empêcher ?
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[
+%showmover=false,
+inverse,markstyle=leftborder,
+]%\showboard
+\end{minipage}
+
+%\item 28b %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\subsection{28b}
+\subsubsection{Exercice b} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\fenboard{rn2k2r/pp3p2/2p1bp1p/3p4/1b1P4/P1NB1N2/1PP2PPP/R3K2R b − − 0 1}
+\storegame{strategie28b}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs peuvent, soit échanger leur fou avec le cavalier, soit conserver leur fou.
+\vspace{0.5cm}
+
+\hspace{0.7cm} Quel est le meilleur choix ?
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[
+%showmover=false,
+inverse,markstyle=leftborder,
+]%\showboard
+\end{minipage}
+
+
+%\item 28c %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\subsection{28c}
+\subsubsection{Exercice c} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\fenboard{r3k2r/pp1n1p2/2p1bp1p/3p4/3P4/P1PB1N2/2P2PPP/R3K2R b − − 0 1}
+\storegame{strategie28c}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm}Ici, il y a un coup difficile à trouver pour les blancs. C'est un coup avec des idées, un plan.
+\vspace{0.5cm}
+
+\hspace{0.7cm} Ou se trouve la faiblesse des noirs ? Ou se trouve la faiblesse des blancs ? 
+\vspace{0.5cm}
+
+\hspace{0.7cm} Comment attaquer ces faiblesses ? Comment les défendre ? 
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard
+\end{minipage}
+
+%\item 33 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\subsection{33}
+\subsection{Exercice 33} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newgame
+\fenboard{rn1qk2r/ppp1ppbp/3p2pn/8/2PP4/2N2P2/PP2BPPP/R1BQK2R w − − 0 1}
+\storegame{strategie33}
+\begin{minipage}{0.45\textwidth}
+\hspace{0.7cm} Les noirs viennent de sortir leur cavalier. Quel est leur plan ?
+\vspace{0.5cm}
+
+\hspace{0.7cm} Les blancs jouent un coup qui stope le plan des noirs.
+\vspace{0.5cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\chessboard[pgfstyle=color,
+opacity=0.3,
+color=green,
+markfield=g8,
+markfield=h6,
+]
+\end{minipage}
+%\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{itemize}[leftmargin=0.7cm, itemsep=0pt]
 %\item  \end{itemize}
