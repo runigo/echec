@@ -2,11 +2,65 @@
 
 %Ce chapitre recense les principes stratégiques.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{L'échiquier, les cases}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}{0.45\textwidth}
+\hspace{0.5cm} Le centre est constitué par les quatres cases e4, e5, d4 et d5. Controler et occuper ces cases est l'un des objectif de l'ouverture. Dans la suite de la partie, posséder le centre assure généralement une domination.
+
+\hspace{0.5cm} En début de partie, les cases f2 et f7 sont des cases fragiles. Elles ne sont protégées que par les rois et sont donc des cibles. Il faut les surveiller, et prendre au sérieux les attaques contre celles-ci.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\setchessboard{clearboard}
+\chessboard[
+pgfstyle=
+{[base,at={\pgfpoint{0pt}{-0.4ex}}]text},
+text= \fontsize{1.2ex}{1.2ex}\bfseries
+\sffamily\currentwq,
+markregions={e4-e4,d4-d4,e5-e5,d5-d5,f7-f7,f2-f2}
+]
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\hspace{0.5cm} Dans la plupart des parties, les blancs jouent 1.e4 et menacent 2.d4 ou jouent 1.d4 et menacent 2.e4. Le premier plan des noirs est de contrer la menace,
+\begin{itemize}[leftmargin=0.7cm, itemsep=0pt]%\end{itemize}
+\item  soit en opposant un pion,
+\item  soit en attaquant le pion des blancs.
+%\item  {\bf Faire jouer ses pièces ensemble / les protéger}
+\end{itemize}
+\hspace{0.5cm} Un autre plan des noirs peut être de se préparer à attaquer ultérieurement le fort centre des blancs.
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\newgame
+\fenboard{8/8/8/8/3PP3/8/8/8 w − − 0 20}
+%\showboard
+\chessboard
+\end{minipage}
+
+
+
+
+On ne gagne une partie d'échec que grâce aux erreurs de l'adversaire
+
+harmonie : pas de cavalier au bord. Faire jouer les pièces ensemble (attaque d'une faiblesse, protection).
+
+
+
 {\bf Controler des cases et y mettre une pièce dès que possible.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section{Ouverture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Caro Kahn
+
+Attaque tall attaque de nuit : https://www.youtube.com/watch?v=FO69jrGXVxc 43min
+
+
 
 \begin{itemize}[leftmargin=2.7cm, label=\ding{32}, itemsep=0pt]%\end{itemize}
 \item  {\bf Se dévelloper}
